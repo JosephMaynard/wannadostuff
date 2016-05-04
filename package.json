@@ -2,9 +2,9 @@
   "name": "wannadostuff.io",
   "version": "1.0.0",
   "description": "Wanna Do Stuff social connection web app",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/JosephMaynard/wannadostuff.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JosephMaynard/wannadostuff.git"
   },
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "history": "^2.1.1",
     "react-dom": "^0.14.7",
     "react-router": "^2.0.1"
   }
