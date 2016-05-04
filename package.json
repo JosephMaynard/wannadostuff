@@ -1,0 +1,32 @@
+{
+  "name": "wannadostuff.io",
+  "version": "1.0.0",
+  "description": "Wanna Do Stuff social connection web app",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/JosephMaynard/wannadostuff.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "author": "Joseph Maynard",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.7.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "connect-history-api-fallback": "^1.2.0",
+    "firebase": "^2.4.1",
+    "html-webpack-plugin": "^2.10.0",
+    "react": "^0.14.7",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.1"
+  }
+}
